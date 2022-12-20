@@ -1,2 +1,3 @@
 # loop_termal_with_bacteria
-Теплоперенос в контуре с упрощёными моделями бактерий
+
+Heat transfer in a circuit with a simplified model of a swarm of bacteria
