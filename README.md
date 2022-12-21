@@ -8,7 +8,7 @@ A model of thermal convection is implemented in a toroidal vertical contour in t
 The algorithm of actions is divided into classes (Parameter_Solution, Create_array, Heat_Calc,BuildPlot, #Draw_Polar_Cards, Array_in_txt), which contain special functions for a specific data type.
 The 'main' function of the 'Create_array' class starts the program.
 This class inherits all the attributes of the 'Parameter_Solution' class and uses them as its own.
-The initial data of the thermal field and velocity field arrays are either read from the text file 'Array_in_txt', or set on the spot.
+The initial data of the thermal field and velocity field arrays are either read from the text file 'Array_in_txt' (codecs, json), or set on the spot.
 At each moment of time, the thermal field is calculated using the functions of the 'Heat_Calc' class, where the data array of the thermal field at the previous time is transmitted.
 This class is a child and inherits the attributes of the 'Parameter_Solution' class.
 Here, the method of finite differences is the main calculation of the temperature field 'term_calc' and the velocity field 'u_calc', as necessary using 'term_calc' and 'term_fluid1' to calculate the boundary conditions and 'sum_term' to calculate the integral by the method of "trapezoids".
