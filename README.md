@@ -28,12 +28,6 @@
 #The final data array is saved by 'print_mass_to_txt'.
 
 
-# 1.	Singer J., Bau H. H. 
-# Active control of convection //
-# Physics of Fluids A: Fluid Dynamics. – 1991. – 
-# Т. 3. – №. 12. – С. 2859-2865.
+# 1.	Singer J., Bau H. H. Active control of convection //Physics of Fluids A: Fluid Dynamics. – 1991. – Т. 3. – №. 12. – С. 2859-2865.
 
-# 2. Singer J., Wang Y. Z., Bau H. H. 
-# Controlling a chaotic system //
-# Physical Review Letters. – 1991. – 
-# Т. 66. – №. 9. – С. 1123.
+# 2. Singer J., Wang Y. Z., Bau H. H. Controlling a chaotic system // Physical Review Letters. – 1991. – Т. 66. – №. 9. – С. 1123.
